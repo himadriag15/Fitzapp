@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/scrollview1"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Enter your message below:"
+            android:id="@+id/textView2"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/etextMsg"
+            android:layout_width="355dp"
+            android:layout_height="217dp"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="17dp"
+            android:gravity="top"></EditText>
+        <Button
+            android:id="@+id/btnSendSMS"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Send SMS"
+            android:layout_below="@+id/etextMsg"
+            android:layout_centerInParent="true">
+        </Button>
+    </RelativeLayout>
+</ScrollView>
